@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{ecf809bf-3766-4100-9e17-cc064fe2cd7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jemalloc">
+      <UniqueIdentifier>{45fef5ba-35ae-43d0-b0c3-baf959cf56bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{6e2b2321-650c-4684-bddb-f6821238fbca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\src">
+      <UniqueIdentifier>{627e6f63-3ecd-44e3-944f-5b1829addfd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\include">
+      <UniqueIdentifier>{0f9804f5-9b31-481e-9fb0-03f6beb0cd31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\iocp">
+      <UniqueIdentifier>{1e828e86-5e81-442b-925f-fcb617c0a3da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\iocp\src">
+      <UniqueIdentifier>{2f08f85f-326b-4208-b913-efcd1f4e7fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\iocp\include">
+      <UniqueIdentifier>{17a0d165-554b-4bee-9ceb-2a590fb05172}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\utils\src\IocpExFuncs.cpp">
+      <Filter>utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\src\TaskProcesser.cpp">
+      <Filter>utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\src\TaskPump.cpp">
+      <Filter>utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\src\utils.cpp">
+      <Filter>utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\iocp\src\DePacketor.cpp">
+      <Filter>core\iocp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\iocp\src\Packet.cpp">
+      <Filter>core\iocp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\iocp\src\Server.cpp">
+      <Filter>core\iocp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\iocp\src\ServerInfo.cpp">
+      <Filter>core\iocp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\iocp\src\ServerTask.cpp">
+      <Filter>core\iocp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\iocp\src\ServerTaskMgr.cpp">
+      <Filter>core\iocp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\iocp\src\Socket.cpp">
+      <Filter>core\iocp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\src\UniqueID.cpp">
+      <Filter>utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\arena.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\background_thread.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\base.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\bitmap.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\ckh.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\ctl.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\extent.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\extent_dss.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\extent_mmap.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\hash.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\hooks.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\jemalloc.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\large.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\malloc_io.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\mutex.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\mutex_pool.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\nstime.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\pages.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\prng.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\prof.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\rtree.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\spin.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\stats.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\sz.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\tcache.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\ticker.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\tsd.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jemalloc\src\witness.c">
+      <Filter>jemalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\src\CmiLog.cpp">
+      <Filter>utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\src\TaskProcesserMgr.cpp">
+      <Filter>utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\src\Tls.cpp">
+      <Filter>utils\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\utils\include\CmiAlloc.h">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\include\CmiNewMemory.h">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\include\CmiThreadLock.h">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\include\CmiWaitSem.h">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\include\IocpExFuncs.h">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\include\TaskProcesser.h">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\include\TaskPump.h">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\include\utils.h">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\iocp\include\DePacketor.h">
+      <Filter>core\iocp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\iocp\include\Packet.h">
+      <Filter>core\iocp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\iocp\include\Server.h">
+      <Filter>core\iocp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\iocp\include\ServerBaseTypes.h">
+      <Filter>core\iocp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\iocp\include\ServerInfo.h">
+      <Filter>core\iocp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\iocp\include\ServerTask.h">
+      <Filter>core\iocp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\iocp\include\ServerTaskMgr.h">
+      <Filter>core\iocp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\iocp\include\Socket.h">
+      <Filter>core\iocp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\include\ByteStream.h">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\include\UniqueID.h">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\iocp\include\MsgProcesser.h">
+      <Filter>core\iocp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\include\CmiLog.h">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\include\SingletonTpl.h">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\include\Singleton.h">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\include\Timer.h">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\include\TaskProcesserMgr.h">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\include\DataCache.h">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\include\DateConvert.h">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\include\Tls.h">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\iocp\include\MsgCoroutine.h">
+      <Filter>core\iocp\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
